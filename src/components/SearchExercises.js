@@ -36,12 +36,12 @@ const SearchExercises = ({setExercises,bodyPart,setBodyPart}) => {
          }
   }
   return (
-    <Stack alignItems="center" mt="37px" justifyContent="center" p="20px">
+    <Stack alignItems="center" mt="5px" justifyContent="center" p="20px">
     <Typography fontWeight={700} sx={{
-      fontSize:{lg:'44px', xs:'30px'}
-    }} mb="50px" textAlign="center"> 
-       Awesome Exercises You<br/>
-       Should Know
+      fontSize:{lg:'50px', xs:'35px'}
+    }} mb="50px" textAlign="center" style={{ fontFamily: "'Times New Roman', Times, serif" ,color:"crimson" }}> 
+       Awesome Exercises For You<br/>
+    
     </Typography>
     <Box position="relative" mb="72px">
          <TextField
@@ -51,7 +51,7 @@ const SearchExercises = ({setExercises,bodyPart,setBodyPart}) => {
               borderRadius:'4px'},
               width:{lg:'800px',xs:'350px'},
               backgroundColor: '#fff',
-              borderRadius:'40px'
+              borderRadius:'0px'
            }}
            
             height="76px"
@@ -62,7 +62,7 @@ const SearchExercises = ({setExercises,bodyPart,setBodyPart}) => {
          />
          <Button className="search-btn"
             sx={{
-              bgcolor: '#ff2625',
+              bgcolor: 'crimson',
               color:"#fff",
               textTransform: 'none',
               width:{lg:"175px",xs:"80px"},
@@ -78,6 +78,7 @@ const SearchExercises = ({setExercises,bodyPart,setBodyPart}) => {
          </Button>
     </Box>
     <Box sx={{position:'relative',width:'100%',p:'20px'}}>
+      <Typography fontSize="40px" mb="40px" borderBottom="maroon" underline  style={{ fontFamily: "'Times New Roman', Times, serif" ,color:"FireBrick" }}>Select your target muscle group for today's workout:</Typography>
       <HorizontalScrollbar data={bodyParts} bodyPart={bodyPart}
       setBodyPart={setBodyPart} isBodyParts={1}/>
 

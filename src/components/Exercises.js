@@ -31,10 +31,10 @@ const Exercises = ({exercises,setExercises,bodyPart}) => {
 
   },[bodyPart]);
   return (
-    <Box id="exercises" sx={{mt:{lg:'110px'}}}
-      mt="50px" p="20px">
-        <Typography variant="h3" mb="46px">
-           Showing Results
+    <Box id="exercises" sx={{mt:{lg:'70px'}}}
+      mt="20px" p="20px">
+        <Typography fontSize="37px" fontWeight="bold"mb="46px" ml="20px"style={{ fontFamily: "'Times New Roman', Times, serif",color:"FireBrick"}} >
+           SHOWING RESULTS:
          </Typography>
         
 

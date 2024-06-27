@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 body {
-    font-family: 'Josefin Sans';
-    background-color: #F4E4C1;
+ 
+    background-color: #FFFFF0;
   }
   
   * {
