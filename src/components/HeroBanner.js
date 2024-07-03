@@ -27,7 +27,7 @@ const HeroBanner = () => {
           fontSize="55px" 
           style={{ fontFamily: "'Times New Roman', Times, serif" }}
         >
-          Welcome to Fitness Guide!
+          Welcome to Fit Focus!
         </Typography>
         <Button 
           variant="contained" 
