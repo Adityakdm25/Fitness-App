@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Stack, Typography } from '@mui/material';
-import Logo from '../assets/images/logo.png'; // Ensure the path to your logo is correct
+import Logo from '../assets/images/Logo.png'; // Ensure the path to your logo is correct
 
 // Social media icons URLs
 const youtubeIconUrl = 'https://cdn.iconscout.com/icon/free/png-256/youtube-85-226402.png';
